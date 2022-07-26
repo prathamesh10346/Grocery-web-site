@@ -1,0 +1,65 @@
+@media screen and (max-width:1000px){
+    nav{
+        flex-direction: column;
+        position: relative;
+        left: 19px;
+        top: 23px;
+
+    }
+    .home{
+        color: var(--main-bg-color);
+    }
+    .slider{
+        height: 23vh;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+        position: relative;
+        top: -33px;
+        left: -25px;
+        height: 40px;
+        width: 90px;
+
+    }
+
+ .class{
+    justify-content: center;
+    color: var(--main-bg-color);
+    position: relative;
+    top: 139px;
+    left: 169px;
+    height: 17px;
+    width: 63px;
+    }
+ .searchh{
+    justify-content: center;
+    display:inline-flex;
+    position: relative;
+    top: -92px;
+    left: 245px;
+    height: 17px;
+    width: 56px;}
+  .search{
+    margin: 0px 5px;
+    height: 25px;
+    }
+    .btn{
+        height: 25px;
+    }
+
+ .cards-item{
+    width: 103px;
+    padding: 46px;
+    margin: 16px;
+    position: relative;
+    top: -38px;
+    right: 59px;
+    }
+    .cards{
+        margin: 0;
+        padding: 0;
+        animation:  1s ease-in-out 2s ease-in-out infinite reverse;
+    }
+
+}

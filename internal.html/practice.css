@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Source+Serif+4:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{ background-color: rgb(102, 170, 132);
+
+}
+.container{
+    background: rgb(204, 228, 214, 0.7);
+    width: 90vw;
+    height: 90vh;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    border-radius: 35px;
+    box-shadow: 10px 20px 10px rgb(121, 113, 113);
+    position: absolute;
+    text-align: center;
+    
+    
+}
+li{display: inline-block;
+    position: relative;
+    right: -76px;
+    top: -88px;
+    padding: 11px;
+    margin: 27px;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+  .home a{
+      color: rgb(43, 40, 40);
+      text-decoration: none;
+      list-style: none;
+      size: 20px;
+      text-shadow:5px 5px 20px black;
+  }
+
+  
+  
+.logo{ display: flex;
+    position: relative;
+    top: 48px;
+    right: -83px;
+    text-shadow: 10px 10px 20px orangered;
+    font-size: 50px;
+  }
+  .ll{display: flex;
+      position: relative;
+      top: -10.5px;
+      right: -44px;
+      color: orangered;
+      text-shadow: 10px 10px 20px orangered;
+      font-size: 52px;
+    }
+    ul li a:hover{
+        font-weight: bolder;
+        color: rgb(139, 6, 6);
+    }
+   
+
+      .sign{position: absolute;
+        top: 61px;
+        right: 120px;
+        width: 93px;
+        height: 35px;
+        border-radius: 21px 60px;
+        background-color:  rgba(255, 77, 17, 0.74);
+        /* color: darkgray; */
+        justify-content: center;
+        display: flex;
+        text-shadow: 18px 17px 12px orangered;
+            align-items: center;
+            font-family: 'Quintessential', cursive;
+font-family: 'Source Serif 4', sans-serif;
+        }
+            .sign a{
+                color: black;
+                text-decoration: none;
+      list-style: none;
+
+            }
+            .modle{
+                position: absolute;
+                 top: 109px;
+                 right: 137px;
+                 border-radius: 0px;
+              
+                
+            }
+            .m{
+              width: 435px;
+            }
+            .vegitable{
+                position: absolute;
+                top: 249px;
+                right: 507px;
+              }
+            .tamato{
+                position: absolute;
+                top: 505px;
+                right: 4px;
+              }
+              .text{
+                font-size: 31px;
+                position: absolute;
+                top: 196px;
+                left: 38px;
+                /* text-shadow: 9px 3px 26px rgb(36, 29, 29); */
+                font-family: 'Quintessential', cursive;
+font-family: 'Source Serif 4', sans-serif;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              }
+            .shop{
+              position: relative;
+              top: 283px;
+               right: -72px;
+              width: 100px;
+              height: 35px;
+              border-radius: 38px 60px;
+              background-color: rgba(255, 77, 17, 0.74);
+              color: darkgray;
+              justify-content: center;
+              display: flex;
+              text-shadow: 18px 17px 12px orangered;
+              align-items: center;
+              font-family: 'Quintessential', cursive;
+font-family: 'Source Serif 4', sans-serif;
+            }
+            .shop a{
+              color: black;
+              text-decoration: none;
+              list-style: none;
+              font-family: 'Quintessential', cursive;
+font-family: 'Source Serif 4', sans-serif;
+            }
+            .stext{
+              position: absolute;
+              top: 451px;
+              left: 57px;
+              font-family: 'Source Serif 4', sans-serif;
+              font-size: 16px;
+            }
+            .leaves{
+              position: absolute;
+              top: 232px;
+              left: 312px;
+            }
+            .upperleaf{
+            
+
+              position: absolute;
+              top: -76px;
+              left: 221px;
+            }
+            .upperL{
+              width: 1100px;
+  
+            }
+            
+            .singleleaves{
+              position: fixed;
+              top: 575px;
+              left: -70px;
+              
+            }
+            .bag{
+              width: 450px;
+               top: 17px;
+              display: flex;
+               bottom: 1px;
+               position: relative;
+            }
+            .tamata{
+              width: 200px;
+            }
+            .dropbtn{
+              position: absolute;
+              top: -59px;
+              right: 0px;
+            }
+            .sign a h3:hover{
+              border-width: 25px;
+              color: aquamarine;
+
+
+            }
+            .shop a h3:hover{
+              border-width: 25px;
+              color: aquamarine;
+
+            }
+          .copyright{
+            position: absolute;
+                right: 16px;
+                bottom: 1px;
+                color: #5b8d74;
+          }

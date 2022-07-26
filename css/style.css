@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --main-bg-color: #2874f0;
+  }
+  header{
+      background:var(--main-bg-color);
+      font-family: 'Lato', sans-serif;
+      border: orangered 10px;
+  }
+  nav{
+      display: flex;
+      height: 8vh;
+      font-family: 'Lato', sans-serif;
+      
+  }
+  .logo{display: flex;
+    align-items: center;
+    
+    padding: 14px;
+    margin: 0 40px;
+  }
+  ul{
+
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        list-style: none;
+        height: 58px;
+  }
+  ul li a:hover{
+      font-weight: bolder;
+  }
+  .home{
+      text-decoration: none;
+      padding: 10px;
+      margin: 0 7px;
+      color: blanchedalmond;
+  }
+  .btn:hover{
+      font-weight: bolder;
+  }
+  .searchh{
+      display: flex;
+      align-items: center;
+  }
+  .search{
+      width: 30vw;
+      height: 37px;
+      
+      border: black 3px;
+      
+      padding: 0 20px;
+      border-radius: 5px;
+      margin: 0 05px 0 45px;
+    }
+  
+  .btn{
+      padding: 5px 15px;
+      color: white;
+      background: var(--main-bg-color);
+      border: white 2px solid;
+      border-radius: 5px;
+      cursor: pointer;
+      
+  }
+  .container{
+      min-height: calc(100vh - 58px - 10vh);
+
+  }
+  .slider{
+       display: flex;
+      justify-content: center;
+      /* height: 42vh;
+      width: 89vw;
+      padding: 0px;
+      margin: 55px;  */
+      width: 80vw;
+      margin: 12px auto;
+      overflow: hidden;
+      /* height: 47vh; */
+  }
+  .card{
+      width: 90vw;
+      margin: 42px auto;
+      font-family: 'Ubuntu', sans-serif;
+  }
+  .cards{
+      display: flex;
+      overflow: hidden;
+      margin: 24px 0px 0px -16px;
+      max-width: 95vw;
+  }
+  .cards-item{
+      display: inline-flex;
+      justify-content: center;
+      margin: 0 17px;
+      flex-direction: column;
+  }
+  .card h2{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    margin: 23px 0 0 4px;
+
+  }
+  .cards-item{
+      text-align: center;
+  }
+  .card-item img{ 
+    width: 140px;
+}
+.ha1{
+margin: 26px, 0;
+}

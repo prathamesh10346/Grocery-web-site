@@ -1,0 +1,8 @@
+footer{
+    background: var(--main-bg-color);
+    color: blanchedalmond;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
